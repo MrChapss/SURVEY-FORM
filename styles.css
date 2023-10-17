@@ -1,0 +1,112 @@
+body {
+	margin: 0 250px 0 240px;
+	font-family: Century Gothic, sans-serif;
+	background-color: #E5C3A6;
+}
+
+.introduction-part {
+	background-color: #FFCF96;
+	text-align: center;
+	border-style: solid;
+	border-radius: 5px;
+	padding: 10px 0 10px 0;
+}
+
+.container-instruction {
+	background-color: #FFCF96;
+	border-style: solid;
+	border-radius: 5px;
+	padding: 0px 20px 20px 20px;
+	margin: 0 0 25px 0;
+}
+
+.instruction-part {
+	margin: -10px 0 0 20px;
+}
+
+.instruction-style {
+	background-color: #F4DFB6;
+	border-style: solid;
+	border-radius: 5px;
+	margin: 22px 0px 0px 0;
+	padding: 0 0 10px 10px;
+}
+
+.table-test {
+	background-color: #FFCF96;
+	border-style: solid;
+	border-color: black;
+	border-radius: 5px;
+	padding: 10px 55px 0 15px;
+	margin: 20px 0 25px 0px;
+	width: 100%;
+}
+
+.pBn {	
+	background-color: #F4DFB6;
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 2px;
+	padding: 5px 5px 5px 5px;
+	width: 165%;
+	margin: 0px 0  0px 0;
+}
+
+.student-information {
+	border-style: solid;
+	border-radius: 5px;
+	background-color: #F4DFB6;
+	border-width: 2px;
+	padding: 10px 0px 10px 15px;
+	margin: 10px 85px -10px 0;
+	width: 63%;
+}
+
+.address {
+	background-color: #F4DFB6;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 5px;
+	padding: 7px 0px 7px 10px;
+	margin: 0 85px -10px 0;
+	width: 19%;
+}
+
+tr, td {
+	padding: 0px 0 30px 0;
+}
+
+
+
+.button-next {
+	margin: 0 0 0 0;
+	font-weight: bold;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 5px;
+	padding: 5px 13px 5px 13px;
+	background-color: #F4DFB6;
+	cursor: pointer;
+}
+
+.author {
+	text-align: center;
+	margin: 100px 0 400px 0;
+}
+
+.textbox-remove {
+	border-style: none none solid none;
+	border-color: black;
+	outline: none;
+	background-color: #F4DFB6;
+}
+
+
+
+
+
+
+
+
+
+

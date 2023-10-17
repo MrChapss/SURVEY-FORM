@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SURVEY FORM</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1 class="introduction-part">LEARNER ENROLLMENT AND SURVEY FORM</h1>
+        <form>
+            <div class="container-instruction">
+                <div class="instruction-style">
+                    <p><b>INSTRUCTIONS:</b></p>
+                    <div class="instruction-part">
+                        <p>
+                        1. This enrollment survey form shall be answered by the <b>parent/guardian</b> of the learner. <br>
+                        2. Please read the instructions carefully and fill in/select applicable entries or options. <br>
+                        For items not applicable, write <b>N/A.</b> <br>
+                        3. For questions/clarifications, please ask for the assistance of the teacher/person-in-charge.<br><br>
+                        <strong>(Note: Click "Email Address:" to type your email address)</strong>
+                        </p>
+                        <label for="email">Email Address:</label> <input type="email" class="textbox-remove" id="email" name="userEmail">
+                    </div>
+                </div>
+            </div>
+                <table class="table-test">
+                    <tr><td><h2 class="student-information">B. STUDENT INFORMATION</h2></td></tr>
+                    <tr><td><label for="birthCertificate"><p class="pBn">B1. PSA/NSO Birth Certificate Number:</p></label></td> <td><input class="textbox-remove" id="birthCertificate" type="text" name="userBirthCertificate"></td></tr>
+                    <tr><td><label for="lrn"><p class="pBn">B2. Learner Reference No. (LRN):</p></label></td> <td><input class="textbox-remove" id="lrn" type="text" name="userLRN"></td></tr> 
+                    <tr><td><label for="LName"><p class="pBn">B3. Last Name:</p></label></td> <td><input class="textbox-remove" id="LName" type="text" name="userLname"></td></tr> 
+                    <tr><td><label for="FName"><p class="pBn">B4. First Name:</p></label></td> <td><input class="textbox-remove" id="FName" type="text" name="userFname"></td></tr> 
+                    <tr><td><label for="MName"><p class="pBn">B5. Middle Name:</p></label></td> <td><input class="textbox-remove" id="MName" type="text" name="userMname"></td></tr> 
+                    <tr><td><label for="EName"><p class="pBn">B6. Extension Name E.G.JR, III (If Applicable):</p></label></td> <td><input class="textbox-remove" id="EName" type="text" name="userExtensionName"></td></tr> 
+                    <tr><td><p class="pBn">B7. Date of Birth (Month/Day/Year):</p></td> <td><input class="textbox-remove" type="date" name="userDateOfBirth" placeholder="Select a date"></td></tr> 
+                    <tr><td><label for="age"><p class="pBn">B8. Age:</p></label></td> <td><input class="textbox-remove" id="age" type="number" name="userAge"></td></tr> 
+                    <tr><td><p class="pBn">B9. Sex:</p></td> 
+                    <td><input type="radio" id="male" name="sex" value="male"> <label for="male">Male</label></td>
+                    <td><input type="radio" id="female" name="sex" value="female"> <label for="female">Female</label></td></tr> 
+                    <tr><td><p class="pBn">B10. Belonging to any Indigineous People (IP):</p></td> 
+                    <td><input type="radio" id="yesB10" name="userBelongingToIP" value="yes"> <label for="yesB10">Yes</label></td>
+                    <td><input type="radio" id="noB10" name="userBelongingToIP" value="no"> <label for="noB10">No</label></td></tr>
+                    <tr><td><label for="spec11"><p class="pBn">B11. If yes, kindly specify:</p></label></td> <td><input class="textbox-remove" id="spec11" type="text" name="userSpecifyB11"></td></tr>
+                    <tr><td><label for="motherTongue"><p class="pBn">B12.  Mother Tongue:</p></label></td> <td><input class="textbox-remove" id="motherTongue" type="text" name="userMotherTongue"></td></tr>
+                    <tr><td><label for="religion"><p class="pBn">B13. Religion:</p></label></td> <td><input class="textbox-remove" id="religion" type="text" name="userReligion"></td></tr>
+                    <tr><td><p class="pBn">B14. Does the learner have special education needs? <br> (i.e. physical, mental, developmental disability, <br> medical condition, giftedness, among others):</td>
+                    <td><input type="radio" id="yesB14" name="learnerSpecialNeeds" value="yes"> <label for="yesB14">Yes</label></td>
+                    <td><input type="radio" id="noB14" name="learnerSpecialNeeds" value="no"> <label for="noB14">No</label></td></tr>
+                    <tr><td><label for="spec15"><p class="pBn">B15. If yes, please specify:</p></label></td> <td><input class="textbox-remove" id="spec15" type="text" name="userSpecifyB15"></td></tr> 
+                    <tr><td><p class="pBn">B16. Do you have any assistive technology <br> devices available at home? <br> (i.e. screen reader, Braille, DAISY):</p></td>
+                    <td><input type="radio" id="yesB16" name="availableDeviceAtHome" value="yes"> <label for="yesB16">Yes</label></td>
+                    <td><input type="radio" id="noB16" name="availableDeviceAtHome" value="no"> <label for="noB16">No</label></td></tr>
+                    <tr><td><label for="spec17"><p class="pBn">B17. If yes, please specify:</p></label></td> <td><input class="textbox-remove" id="spec17" type="text" name="assistiveDevice"></td></tr>
+                    <tr><td><h3 class="address">ADDRESS</h3></td></tr>
+                    <tr><td><label for="hbs"><p class="pBn">B18. House Number/Block, Lot/Street:</p></label></td> <td><input class="textbox-remove" id="hbs" type="text" name="address"></td></tr>
+                    <tr><td><label for="svz"><p class="pBn">B19. Subdivision/Village/Zone:</p></label></td> <td><input class="textbox-remove" id="svz" type="text" name="address"></td></tr>
+                    <tr><td><label for="barangay"><p class="pBn">B20. Barangay:</p></label><td><input class="textbox-remove" id="barangay" type="text" name="userBarangay"></td></tr>
+                    <tr><td><label for="c/m"><p class="pBn">B21. City/Municipality:</p></label></td> <td><input class="textbox-remove" id="c/m" type="text" name="userCity"></td></tr>
+                    <tr><td><label for="province"><p class="pBn">B22. Province:</p></td> <td><input class="textbox-remove" id="province" type="text" name="userProvince"></td></tr>
+                    <tr><td><label for="region"><p class="pBn">B23. Region:</p></label></td> <td><input class="textbox-remove" id="region" type="text" name="userRegion"></td></tr>
+                    <tr><td><button class="button-next" value="Next">Next</button></td></tr>
+                </table>
+        </form>
+            <div class="author">
+                <h2>PALMA, KARSTEN KYLE S. <br>ICT PROG 11-PAGE</h2>
+            </div>
+    </body>
+</html>
